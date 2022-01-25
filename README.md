@@ -23,7 +23,7 @@ But if you want to build it yourself sure, go on
 
 ## Linux
 on linux its pretty easy just compile it with 
-
+(i have **build.sh** exactly doing those stuff so you can run it instead)
 `g++ -o breakout breakout.cpp -lX11 -lGL -lpthread -lpng -lstdc++fs -std=c++17 -s -Os -flto`
 
 there are some libraries we want and also flags for size optimization
