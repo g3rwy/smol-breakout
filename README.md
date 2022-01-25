@@ -23,16 +23,24 @@ But if you want to build it yourself sure, go on
 
 ## Linux
 on linux its pretty easy just compile it with 
+
 `g++ -o breakout breakout.cpp -lX11 -lGL -lpthread -lpng -lstdc++fs -std=c++17 -s -Os -flto`
+
 there are some libraries we want and also flags for size optimization
 after that compress it with upx
+
 `upx --lzma breakout`
+
 for me --lzma works the best
 
 ## Windows
 Well because i used mingw i will show how i did it with mingw, probably you are able to use the above command when using cygwin or something, but if you want to compile it you will figure it out
 using mingw32-g++, also you need to compile **breakout_Win.cpp** i made some changes there for it to be playable on Windows
+
+
 `x86_64-w64-mingw32-g++-win32 breakout_Win.cpp -luser32 -lgdi32 -lopengl32 -lgdiplus -lshlwapi -ldwmapi -lstdc++fs -std=c++17 -static`
+
+
 linking it statically, but you can try without it and see if it works for you, it should if you have all stuff installed
 after that you can also compress it with upx using --lzma flag 
 
