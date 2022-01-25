@@ -4,9 +4,13 @@
 ## The final size is only *27KB*!!
 
 ![Some "gameplay" lol](https://cdn.discordapp.com/attachments/845631328656293928/935640401690394645/Breakout.gif)
+
+---
 Some Controls:
 `Tab` - Shows what those magic numbers are on the top
+
 `Space or Up` - Shoot the ball when you are holding it
+
 `Left or Right` - Pretty obvious
 
 Of course its *buggy* but its playable
